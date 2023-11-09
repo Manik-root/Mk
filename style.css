@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "roboto", sans-serif;
+}
+
+body {
+    background-color: #E7E5E4;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: cadetblue;
+    height: 150px;
+    cursor: pointer;
+    
+}
+
+.lis {
+    display: inline;
+    font-size: 20px; 
+    font-weight: bold;
+    padding: 20px;
+}
+
+.icon {
+    border-radius: 20px;
+    background-color: aliceblue;
+    border: 2px solid;
+    text-align: center;
+    padding: 5px;
+    margin-left: 10px;
+    width: 30px;
+}
+
+.mk:hover,
+.icon:hover {
+    transform: scale(1.2);
+}
+.lis:hover,.t:hover{
+    color: white;
+}
+.mk{
+    font-size: 70px; 
+    border-radius: 50%;
+     border: 2px solid whitesmoke; 
+     padding: 20px;
+}
+
+.sec2{
+    display: flex;
+    margin: 30px;
+}
+.srcc{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    width: 50%;
+    
+}
+.sec3{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 70px;
+}
+.sec4{
+    display: flex;
+    margin: 30px;
+    
+    
+}
+.py{
+    display: inline;
+    border: solid;
+    border-radius: 20px;
+    padding: 20px;
+    background-color:#FFC300;
+    color: white;
+    
+    
+}
+.sec5{
+    display: flex;
+    margin: 50px;
+    border: solid;
+    border-radius: 20px;
+    background-color:rgb(10, 10, 10);
+    color: white;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.sec6{
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid ;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: lightgrey;
+
+}
+.sec6 ul,li{
+    list-style-type: disc;
+    margin-bottom: 5px;
+}
+.ml{
+    display: flex;
+    margin: 50px;
+    border: solid;
+    border-radius: 20px;
+    background-color:rgb(57, 57, 57);
+    color: white;
+    padding: 20px;
+    
+}
+.sec8{
+    display: inline-block;
+    margin: 50px;
+    border: 2px solid ;
+    border-radius: 10px;
+    padding: 20px;
+    height: 30rem;
+
+}
+@media screen (max-width:600px){
+    .header {
+        
+    
+}
+
